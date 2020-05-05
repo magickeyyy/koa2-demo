@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/"><img style="height: 30px;" src="/favico.jpg" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">首页</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    产品管理
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/products">产品首页</a>
+                    <a class="dropdown-item" href="/products">Another action</a>
+                    <a class="dropdown-item" href="/products">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    订单管理
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/orders">订单首页</a>
+                    <a class="dropdown-item" href="/orders">Another action</a>
+                    <a class="dropdown-item" href="/orders">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    用户管理
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/users">用户列表</a>
+                    <a class="dropdown-item" href="/users/admin">管理员</a>
+                    <a class="dropdown-item" href="/users/other">other</a>
+                    <a class="dropdown-item" href="javascript:;">member</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/aboutus">关于我们</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/joinus">加入我们</a>
+            </li>
+        </ul>
+    </div>
+    <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">搜索</button>
+    </form>
+    &emsp;&emsp;
+    <button id="btn_signin" type="button" class="btn btn-outline-success">登录</button>
+    <button id="btn_signout" type="button" class="btn btn-outline-success">登出</button>
+</nav>
